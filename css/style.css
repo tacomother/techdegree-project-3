@@ -5,12 +5,13 @@
 }
 
 body {
+  font-family: 'Merriweather', sans-serif;
   margin: 0;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.1em;
 
   color: #fff;
   background-color: #283747;
@@ -20,12 +21,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-bottom: -8px;
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #aaa7b8;
 }
 
@@ -42,6 +43,7 @@ fieldset {
 label {
   display: block;
   margin-bottom: 5px;
+  font-size: 0.8em;
 }
 
 input[type="text"],
@@ -124,9 +126,13 @@ footer p {
   text-align: center;
 }
 
+.group1 .f-title {
+  margin-left: 4px;
+}
+
 .f-title {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.1em;
 
 
   padding-top: 4px;
@@ -143,7 +149,7 @@ footer p {
 }
 
 .group2 label {
-  font-size: .9em;
+  font-size: .8em;
   margin-bottom: 10px;
 }
 
@@ -185,7 +191,7 @@ input::placeholder {
   }
 
   .group1 label {
-    padding: 8px;
+    padding: 10px;
     float: left;
     clear: both;
   }
